@@ -56,7 +56,7 @@ public class CommentAdapter extends RecyclerView.Adapter<CommentAdapter.ViewHold
      *
      * @param comments lista komentarzy
      */
-    public void setReviews(List<Comment> comments) {
+    public void setComments(List<Comment> comments) {
         this.comments = comments;
 
         // odśwież RecyclerView
